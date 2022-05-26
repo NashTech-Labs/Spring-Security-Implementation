@@ -1,0 +1,3 @@
+[submodule "Spring-Security-Implementation"]
+	path = Spring-Security-Implementation
+	url = https://github.com/knoldus/Spring-Security-Implementation.git
