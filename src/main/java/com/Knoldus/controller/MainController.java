@@ -1,0 +1,14 @@
+package com.Knoldus.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MainController {
+
+	@RequestMapping("/")
+	public String main() {
+		return "Great, You have successfully implemented Spring Security";
+	}
+
+}
